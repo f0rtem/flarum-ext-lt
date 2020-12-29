@@ -1,0 +1,44 @@
+{
+    "name": "f0rtem/flarum-ext-lt",
+    "description": "Lithuanian language extension pack for Flarum.",
+    "type": "flarum-extension",
+    "keywords": ["extension", "flarum", "lithuanian", "locale", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "f0rtem",
+            "email": "f0rtemofficial@gmail.com",
+            "homepage": "https://github.com/f0rtem"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/f0rtem/flarum-ext-lt/issues",
+        "source": "https://github.com/f0rtem/flarum-ext-lt"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.9.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Lithuanian",
+            "category": "language",
+            "info": {
+                "website": "https://github.com/f0rtem/flarum-ext-lt",
+                "support": "https://github.com/f0rtem/flarum-ext-lt/issues"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "lt",
+            "title": "Lietuvių"
+        }
+    }
+}
