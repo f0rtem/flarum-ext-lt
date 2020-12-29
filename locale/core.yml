@@ -93,48 +93,48 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Adresses
-      description: "Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels."
-      driver_heading: Sélectionner un driver
+      addresses_heading: Addresses
+      description: "Configure the driver, settings and addresses your forum will use to send email."
+      driver_heading: Choose a Driver
       driver_label: Driver
-      from_label: Expéditeur
-      mail_encryption_label: Chiffrement
-      mail_host_label: Hôte
-      mail_mailgun_domain_label: Domaine
-      mail_mailgun_region_label: Région
-      mail_mailgun_secret_label: Clé secrète
+      from_label: Sender
+      mail_encryption_label: Encryption
+      mail_host_label: Host
+      mail_mailgun_domain_label: Domain
+      mail_mailgun_region_label: Region
+      mail_mailgun_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
-      mailgun_heading: Paramètres Mailgun
-      not_sending_message: Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le driver sélectionné ou une mauvaise configuration.
-      send_test_mail_button: Envoyer
-      send_test_mail_heading: Envoyer le courriel de test
-      send_test_mail_success: "Le courriel de test a été envoyé !"
-      send_test_mail_text: "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}."
-      smtp_heading: Paramètres SMTP
-      submit_button: => core.ref.okay
+      mailgun_heading: Mailgun Settings
+      not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
+      send_test_mail_button: Send
+      send_test_mail_heading: Send Test Mail
+      send_test_mail_success: "Test mail sent successfully!"
+      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
+      smtp_heading: SMTP Settings
+      submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
-      confirm_uninstall: La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer ?
-      disabled: Désactivée
-      enabled: Activée
-      enable_to_see: Activez l’extension pour afficher et modifier ses paramètres.
+      confirm_uninstall: Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?
+      disabled: Disabled
+      enabled: Enabled
+      enable_to_see: Enable the extension to view and change settings.
       info_links:
-        discuss: Discuter
+        discuss: Discuss
         documentation: Documentation
-        donate: Faire un don
+        donate: Donate
         source: Source
         support: Support
-        website: Site internet
-      no_permissions: Cette extension ne détient aucune permission.
-      no_settings: Cette extension ne détient aucun paramètre.
-      open_modal: Ouvrir les paramètres
+        website: Website
+      no_permissions: This extension has no permissions.
+      no_settings: This extension has no settings.
+      open_modal: Open Settings
       permissions_title: Permissions
-      saved_message: Vos modifications ont été enregistrées.
-      uninstall_button: Désinstaller
+      saved_message: Your changes were saved.
+      uninstall_button: Uninstall
 
     # These translations are used in the secondary header.
     header:
@@ -171,47 +171,47 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Modifier ses messages
-      allow_renaming_label: Renommer ses discussions
-      create_heading: Création
-      delete_discussions_forever_label: Supprimer définitivement les discussions
-      delete_discussions_label: Supprimer les discussions
-      delete_posts_forever_label: Supprimer définitivement les messages
-      delete_posts_label: Supprimer les messages
-      description: Configurez qui peut voir et faire quoi.
-      edit_posts_label: Modifier les messages
-      edit_users_label: Modifier les utilisateurs
-      global_heading: Général
-      moderate_heading: Modération
-      new_group_button: Nouveau groupe
-      participate_heading: Participation
-      post_without_throttle_label: Répondre plusieurs fois sans attendre
-      read_heading: Consultation
-      rename_discussions_label: Renommer les discussions
-      reply_to_discussions_label: Répondre aux discussions
-      sign_up_label: S’inscrire
-      start_discussions_label: Démarrer des discussions
+      allow_post_editing_label: Allow post editing
+      allow_renaming_label: Allow renaming
+      create_heading: Create
+      delete_discussions_forever_label: Delete discussions forever
+      delete_discussions_label: Delete discussions
+      delete_posts_forever_label: Delete posts forever
+      delete_posts_label: Delete posts
+      description: Configure who can see and do what.
+      edit_posts_label: Edit posts
+      edit_users_label: Edit users
+      global_heading: Edit users
+      moderate_heading: Moderate
+      new_group_button: New Group
+      participate_heading: Participate
+      post_without_throttle_label: Reply multiple times without waiting
+      read_heading: Read
+      rename_discussions_label: Rename discussions
+      reply_to_discussions_label: Reply to discussions
+      sign_up_label: Sign up
+      start_discussions_label: Start discussions
       title: Permissions
-      view_discussions_label: Voir les discussions
-      view_hidden_groups_label: Voir les badges des groupes masqués
-      view_last_seen_at_label: Toujours voir la dernière connexion des utilisateurs
-      view_post_ips_label: Voir les adresses IP du message
-      view_user_list_label: Voir la liste des utilisateurs
+      view_discussions_label: View discussions
+      view_hidden_groups_label: View hidden group badges
+      view_last_seen_at_label: Always view user last seen time
+      view_post_ips_label: View post IP addresses
+      view_user_list_label: View user list
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indéfiniment
-      allow_some_minutes_button: "Pendant {count} minute|Pendant {count} minutes"
-      allow_ten_minutes_button: Pendant 10 minutes
-      allow_until_reply_button: Jusqu’à la prochaine réponse
-      everyone_button: Tout le monde
+      allow_indefinitely_button: Indefinitely
+      allow_some_minutes_button: "For  {count} minute|For {count} minutes"
+      allow_ten_minutes_button: For 10 minutes
+      allow_until_reply_button: Until next reply
+      everyone_button: Everyone
       members_button: => core.group.members
-      signup_closed_button: Refuser
-      signup_open_button: Autoriser
+      signup_closed_button: Closed
+      signup_open_button: Open
 
     # These translations are used in the Settings modal dialog.
     settings:
-      submit_button: => core.ref.okay
+      submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
