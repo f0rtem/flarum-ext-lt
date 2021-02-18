@@ -412,7 +412,7 @@ core:
       notify_by_web_heading: Asmeninė svetainė
       notify_discussion_renamed_label: Kažkas pervadino mano pradėtą temą
       privacy_disclose_online_label: Rodyti kitiems kada esu prisijungęs(-usi)
-      privacy_heading: Privacy
+      privacy_heading: Privatumas
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -603,7 +603,7 @@ core:
     custom_footer_text: Pridėkite HTML, kuris bus rodomas pačiame puslapio apačioje.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Pridėkite HTML, kuris bus rodomas pačiame puslapio viršuje, virš paties „Flarum“ antraštės."
-    custom_header_title: "Personnaliser l’en-tête"
+    custom_header_title: "Edit Custom Header"
     delete: Ištrinti
     delete_forever: Ištrinti visam laikui
     discussions: Temos                     # Referenced by flarum-statistics.yml
