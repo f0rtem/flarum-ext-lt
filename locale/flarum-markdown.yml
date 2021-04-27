@@ -4,6 +4,11 @@ flarum-markdown:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
+  admin:
+    settings:
+     mdarea_help: '"Mdarea" is a text box utility that automatically continues lists, helps with code formatting, and facilitates indentation.'
+     mdarea_label: 'Activate "Mdarea"?'
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 

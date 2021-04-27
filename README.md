@@ -4,9 +4,9 @@ Extension to translate your [Flarum](https://flarum.org/) forum and its extensio
 Admin panel language was kept in English to keep it more developer friendly.
 
 ## Documentation
-- Version 1.0.6
+- Version 1.1.2
 - Released on December 29, 2020
-- Compatable with Flarum 0.1.0-beta.15
+- Compatable with Flarum 0.1.0-beta.16
 - On [Packagist](https://packagist.org/packages/f0rtem/flarum-ext-lt)
 
 ### Installation

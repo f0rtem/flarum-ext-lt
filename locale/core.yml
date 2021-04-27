@@ -168,8 +168,6 @@ core:
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
       search_placeholder: Ieškoti įskiepių
-      userlist_button: '=> core.admin.users.title'
-       userlist_title: '=> core.admin.users.description'
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -214,40 +212,6 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
-
-    # These translations are used in image upload buttons.
-    upload_image:
-      remove_button: => core.ref.remove
-      upload_button: Pasirinkite nuotrauką...
-    users:
-       description: 'Organizuotas visų forumo narių sąrašas'
-       grid:
-         columns:
-           edit_user:
-             button: '=> core.ref.edit'
-             title: '=> core.ref.edit_user'
-             tooltip: 'Redaguoti {username}'
-           email:
-             title: '=> core.ref.email'
-             visibility_hide: 'Slėpti el. pašto adresą'
-             visibility_show: 'Rodyti el. pašto adresą'
-           group_badges:
-             no_badges: Nėra
-             title: Grupės
-           join_time:
-             title: Prisiregistruota
-           user_id:
-             title: Vartotojo vardas
-           username:
-             profile_link_tooltip: 'Peržiūrėti nario {username} profilį'
-             title: '=> core.ref.username'
-         invalid_column_content: Neteisingas
-       pagination:
-         back_button: 'Ankstesnis puslapis'
-         next_button: 'Sekantis puslapis'
-         page_counter: 'Puslapis {current} iš {total}'
-       title: '=> core.ref.users'
-       total_users: 'Iš viso forumo narių: {count}'s
 
   # Translations in this namespace are used by the forum user interface.
   forum:
