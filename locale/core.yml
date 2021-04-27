@@ -310,6 +310,7 @@ core:
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+      
 
     # These translations are used in the discussion list.
     discussion_list:
